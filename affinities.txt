@@ -11,20 +11,41 @@ Seth Milchick
 Harmony Cobel
 Eustice Huang
 Jame Eagan
-Natalie
+Natalie Kalen
 Gemma Scout
 Miss Casey
 Devon Scout-Hale
 Ricken Hale
 Burt Goodman
 Burt G.
-Peter Kilmer
 Petey K.
 Lorne
 Mr. Drummond
 Asal Reghabi
 Dr. Mauer
 Gretchen George
+Doug Graner
+Felicia
+Judd
+Alexa
+Rebeck
+Patton
+Danise
+Merrick George
+Ruth George
+Jim George
+Mark W.
+Gwendolyn Y.
+Dario R.
+Cecily
+June Kilmer
+Nina Kilmer
+Sissy Cobel
+Hampton
+Cecil Fields
+
+
+
 
 # Affinities (character1, character2, affinity_value)
 Mark Scout,Mark S.,-3.0
@@ -38,14 +59,13 @@ Mark Scout,Seth Milchick,-3.0
 Mark Scout,Harmony Cobel,-4.0
 Mark Scout,Eustice Huang,0.0
 Mark Scout,Jame Eagan,0.0
-Mark Scout,Natalie,-1.0
+Mark Scout,Natalie Kalen,-1.0
 Mark Scout,Gemma Scout,5.0
 Mark Scout,Miss Casey,0.0
 Mark Scout,Devon Scout-Hale,5.0
 Mark Scout,Ricken Hale,3.0
 Mark Scout,Burt Goodman,0.0
 Mark Scout,Burt G.,0.0
-Mark Scout,Peter Kilmer,2.0
 Mark Scout,Petey K.,2.0
 Mark Scout,Lorne,0.0
 Mark Scout,Mr. Drummond,-2.0
@@ -56,21 +76,20 @@ Mark S.,Helena Eagan,-4.0
 Mark S.,Helly R.,5.0
 Mark S.,Dylan George,0.0
 Mark S.,Dylan G.,4.0
-Mark S.,Irving Bailiff,4.0
+Mark S.,Irving Bailiff,0.0
 Mark S.,Irving B.,4.0
 Mark S.,Seth Milchick,-4.0
 Mark S.,Harmony Cobel,-4.0
 Mark S.,Eustice Huang,-2.0
 Mark S.,Jame Eagan,-1.0
-Mark S.,Natalie,-1.0
+Mark S.,Natalie Kalen,-1.0
 Mark S.,Gemma Scout,0.0
 Mark S.,Miss Casey,1.0
 Mark S.,Devon Scout-Hale,3.0
 Mark S.,Ricken Hale,4.0
 Mark S.,Burt Goodman,0.0
 Mark S.,Burt G.,1.0
-Mark S.,Peter Kilmer,0.0
-Mark S.,Petey K.,4.0
+Mark S.,Petey K.,0.0
 Mark S.,Lorne,3.0
 Mark S.,Mr. Drummond,-4.0
 Mark S.,Asal Reghabi,0.0
@@ -85,14 +104,13 @@ Helena Eagan,Seth Milchick,3.0
 Helena Eagan,Harmony Cobel,-4.0
 Helena Eagan,Eustice Huang,0.0
 Helena Eagan,Jame Eagan,-5.0
-Helena Eagan,Natalie,4.0
+Helena Eagan,Natalie Kalen,4.0
 Helena Eagan,Gemma Scout,0.0
 Helena Eagan,Miss Casey,0.0
 Helena Eagan,Devon Scout-Hale,0.0
 Helena Eagan,Ricken Hale,0.0
 Helena Eagan,Burt Goodman,0.0
 Helena Eagan,Burt G.,0.0
-Helena Eagan,Peter Kilmer,0.0
 Helena Eagan,Petey K.,0.0
 Helena Eagan,Lorne,0.0
 Helena Eagan,Mr. Drummond,3.0
@@ -107,14 +125,20 @@ Helly R.,Seth Milchick,-4.0
 Helly R.,Harmony Cobel,-4.0
 Helly R.,Eustice Huang,-2.0
 Helly R.,Jame Eagan,-4.0
-Helly R.,Natalie,-2.0
+Helly R.,Natalie Kalen,-2.0
 Helly R.,Gemma Scout,0.0
 Helly R.,Miss Casey,2.0
 Helly R.,Devon Scout-Hale,0.0
+Seth Milchick,Gemma Scout,0.0
+Seth Milchick,Miss Casey,-2.0
+Seth Milchick,Devon Scout-Hale,-2.0
+Seth Milchick,Ricken Hale,1.0
+Seth Milchick,Burt Goodman,2.0
+Seth Milchick,Burt G.,4.0
+Seth Milchick,Petey K.,3.0
 Helly R.,Ricken Hale,0.0
 Helly R.,Burt Goodman,0.0
 Helly R.,Burt G.,1.0
-Helly R.,Peter Kilmer,0.0
 Helly R.,Petey K.,0.0
 Helly R.,Lorne,0.0
 Helly R.,Mr. Drummond,0.0
@@ -128,14 +152,13 @@ Dylan George,Seth Milchick,2.0
 Dylan George,Harmony Cobel,0.0
 Dylan George,Eustice Huang,0.0
 Dylan George,Jame Eagan,0.0
-Dylan George,Natalie,0.0
+Dylan George,Natalie Kalen,0.0
 Dylan George,Gemma Scout,0.0
 Dylan George,Miss Casey,0.0
 Dylan George,Devon Scout-Hale,0.0
 Dylan George,Ricken Hale,0.0
 Dylan George,Burt Goodman,0.0
 Dylan George,Burt G.,0.0
-Dylan George,Peter Kilmer,0.0
 Dylan George,Petey K.,0.0
 Dylan George,Lorne,0.0
 Dylan George,Mr. Drummond,0.0
@@ -148,14 +171,13 @@ Dylan G.,Seth Milchick,-3.0
 Dylan G.,Harmony Cobel,-3.0
 Dylan G.,Eustice Huang,-2.0
 Dylan G.,Jame Eagan,0.0
-Dylan G.,Natalie,0.0
+Dylan G.,Natalie Kalen,0.0
 Dylan G.,Gemma Scout,0.0
 Dylan G.,Miss Casey,3.0
 Dylan G.,Devon Scout-Hale,0.0
 Dylan G.,Ricken Hale,2.0
 Dylan G.,Burt Goodman,0.0
 Dylan G.,Burt G.,1.0
-Dylan G.,Peter Kilmer,3.0
 Dylan G.,Petey K.,3.0
 Dylan G.,Lorne,0.0
 Dylan G.,Mr. Drummond,0.0
@@ -167,14 +189,13 @@ Irving Bailiff,Seth Milchick,-2.0
 Irving Bailiff,Harmony Cobel,0.0
 Irving Bailiff,Eustice Huang,0.0
 Irving Bailiff,Jame Eagan,0.0
-Irving Bailiff,Natalie,0.0
+Irving Bailiff,Natalie Kalen,0.0
 Irving Bailiff,Gemma Scout,0.0
 Irving Bailiff,Miss Casey,0.0
 Irving Bailiff,Devon Scout-Hale,0.0
 Irving Bailiff,Ricken Hale,0.0
 Irving Bailiff,Burt Goodman,4.0
 Irving Bailiff,Burt G.,0.0
-Irving Bailiff,Peter Kilmer,0.0
 Irving Bailiff,Petey K.,0.0
 Irving Bailiff,Lorne,0.0
 Irving Bailiff,Mr. Drummond,0.0
@@ -185,14 +206,13 @@ Irving B.,Seth Milchick,-4.0
 Irving B.,Harmony Cobel,-3.0
 Irving B.,Eustice Huang,-2.0
 Irving B.,Jame Eagan,0.0
-Irving B.,Natalie,0.0
+Irving B.,Natalie Kalen,0.0
 Irving B.,Gemma Scout,0.0
 Irving B.,Miss Casey,3.0
 Irving B.,Devon Scout-Hale,0.0
 Irving B.,Ricken Hale,2.0
 Irving B.,Burt Goodman,0.0
 Irving B.,Burt G.,5.0
-Irving B.,Peter Kilmer,0.0
 Irving B.,Petey K.,4.0
 Irving B.,Lorne,0.0
 Irving B.,Mr. Drummond,0.0
@@ -202,15 +222,8 @@ Irving B.,Gretchen George,0.0
 Seth Milchick,Harmony Cobel,-4.0
 Seth Milchick,Eustice Huang,-3.0
 Seth Milchick,Jame Eagan,-2.0
-Seth Milchick,Natalie,-1.0
-Seth Milchick,Gemma Scout,0.0
-Seth Milchick,Miss Casey,-2.0
-Seth Milchick,Devon Scout-Hale,-2.0
-Seth Milchick,Ricken Hale,1.0
-Seth Milchick,Burt Goodman,2.0
-Seth Milchick,Burt G.,4.0
-Seth Milchick,Peter Kilmer,3.0
-Seth Milchick,Petey K.,-3.0
+Seth Milchick,Natalie Kalen,-1.0
+Seth Milchick,Petey K..,-3.0
 Seth Milchick,Lorne,1.0
 Seth Milchick,Mr. Drummond,-4.0
 Seth Milchick,Asal Reghabi,0.0
@@ -218,14 +231,13 @@ Seth Milchick,Dr. Mauer,2.0
 Seth Milchick,Gretchen George,3.0
 Harmony Cobel,Eustice Huang,0.0
 Harmony Cobel,Jame Eagan,-5.0
-Harmony Cobel,Natalie,-4.0
+Harmony Cobel,Natalie Kalen,-4.0
 Harmony Cobel,Gemma Scout,0.0
 Harmony Cobel,Miss Casey,-2.0
 Harmony Cobel,Devon Scout-Hale,4.0
 Harmony Cobel,Ricken Hale,-1.0
 Harmony Cobel,Burt Goodman,0.0
 Harmony Cobel,Burt G.,-1.0
-Harmony Cobel,Peter Kilmer,-3.0
 Harmony Cobel,Petey K.,-3.0
 Harmony Cobel,Lorne,-1.0
 Harmony Cobel,Mr. Drummond,-3.0
@@ -233,53 +245,49 @@ Harmony Cobel,Asal Reghabi,-2.0
 Harmony Cobel,Dr. Mauer,0.0
 Harmony Cobel,Gretchen George,0.0
 Eustice Huang,Jame Eagan,0.0
-Eustice Huang,Natalie,0.0
+Eustice Huang,Natalie Kalen,0.0
 Eustice Huang,Gemma Scout,0.0
 Eustice Huang,Miss Casey,0.0
 Eustice Huang,Devon Scout-Hale,0.0
 Eustice Huang,Ricken Hale,0.0
 Eustice Huang,Burt Goodman,0.0
 Eustice Huang,Burt G.,0.0
-Eustice Huang,Peter Kilmer,0.0
 Eustice Huang,Petey K.,0.0
 Eustice Huang,Lorne,-1.0
 Eustice Huang,Mr. Drummond,0.0
 Eustice Huang,Asal Reghabi,0.0
 Eustice Huang,Dr. Mauer,0.0
 Eustice Huang,Gretchen George,0.0
-Jame Eagan,Natalie,3.0
+Jame Eagan,Natalie Kalen,3.0
 Jame Eagan,Gemma Scout,0.0
 Jame Eagan,Miss Casey,0.0
 Jame Eagan,Devon Scout-Hale,0.0
 Jame Eagan,Ricken Hale,0.0
 Jame Eagan,Burt Goodman,0.0
 Jame Eagan,Burt G.,0.0
-Jame Eagan,Peter Kilmer,0.0
 Jame Eagan,Petey K.,0.0
 Jame Eagan,Lorne,0.0
 Jame Eagan,Mr. Drummond,2.0
 Jame Eagan,Asal Reghabi,0.0
 Jame Eagan,Dr. Mauer,0.0
 Jame Eagan,Gretchen George,0.0
-Natalie,Gemma Scout,0.0
-Natalie,Miss Casey,0.0
-Natalie,Devon Scout-Hale,-2.0
-Natalie,Ricken Hale,2.0
-Natalie,Burt Goodman,0.0
-Natalie,Burt G.,0.0
-Natalie,Peter Kilmer,0.0
-Natalie,Petey K.,0.0
-Natalie,Lorne,0.0
-Natalie,Mr. Drummond,3.0
-Natalie,Asal Reghabi,0.0
-Natalie,Dr. Mauer,0.0
-Natalie,Gretchen George,0.0
+Natalie Kalen,Gemma Scout,0.0
+Natalie Kalen,Miss Casey,0.0
+Natalie Kalen,Devon Scout-Hale,-2.0
+Natalie Kalen,Ricken Hale,2.0
+Natalie Kalen,Burt Goodman,0.0
+Natalie Kalen,Burt G.,0.0
+Natalie Kalen,Petey K.,0.0
+Natalie Kalen,Lorne,0.0
+Natalie Kalen,Mr. Drummond,3.0
+Natalie Kalen,Asal Reghabi,0.0
+Natalie Kalen,Dr. Mauer,0.0
+Natalie Kalen,Gretchen George,0.0
 Gemma Scout,Miss Casey,0.0
 Gemma Scout,Devon Scout-Hale,4.0
 Gemma Scout,Ricken Hale,3.0
 Gemma Scout,Burt Goodman,0.0
 Gemma Scout,Burt G.,0.0
-Gemma Scout,Peter Kilmer,0.0
 Gemma Scout,Petey K.,0.0
 Gemma Scout,Lorne,0.0
 Gemma Scout,Mr. Drummond,0.0
@@ -290,7 +298,6 @@ Miss Casey,Devon Scout-Hale,0.0
 Miss Casey,Ricken Hale,0.0
 Miss Casey,Burt Goodman,0.0
 Miss Casey,Burt G.,2.0
-Miss Casey,Peter Kilmer,0.0
 Miss Casey,Petey K.,0.0
 Miss Casey,Lorne,3.0
 Miss Casey,Mr. Drummond,0.0
@@ -300,7 +307,6 @@ Miss Casey,Gretchen George,0.0
 Devon Scout-Hale,Ricken Hale,5.0
 Devon Scout-Hale,Burt Goodman,0.0
 Devon Scout-Hale,Burt G.,0.0
-Devon Scout-Hale,Peter Kilmer,0.0
 Devon Scout-Hale,Petey K.,0.0
 Devon Scout-Hale,Lorne,0.0
 Devon Scout-Hale,Mr. Drummond,0.0
@@ -309,7 +315,6 @@ Devon Scout-Hale,Dr. Mauer,0.0
 Devon Scout-Hale,Gretchen George,0.0
 Ricken Hale,Burt Goodman,0.0
 Ricken Hale,Burt G.,0.0
-Ricken Hale,Peter Kilmer,0.0
 Ricken Hale,Petey K.,0.0
 Ricken Hale,Lorne,0.0
 Ricken Hale,Mr. Drummond,0.0
@@ -317,26 +322,18 @@ Ricken Hale,Asal Reghabi,0.0
 Ricken Hale,Dr. Mauer,0.0
 Ricken Hale,Gretchen George,0.0
 Burt Goodman,Burt G.,2.0
-Burt Goodman,Peter Kilmer,0.0
 Burt Goodman,Petey K.,0.0
 Burt Goodman,Lorne,0.0
 Burt Goodman,Mr. Drummond,2.0
 Burt Goodman,Asal Reghabi,0.0
 Burt Goodman,Dr. Mauer,0.0
 Burt Goodman,Gretchen George,0.0
-Burt G.,Peter Kilmer,0.0
 Burt G.,Petey K.,0.0
 Burt G.,Lorne,0.0
 Burt G.,Mr. Drummond,0.0
 Burt G.,Asal Reghabi,0.0
 Burt G.,Dr. Mauer,0.0
 Burt G.,Gretchen George,0.0
-Peter Kilmer,Petey K.,3.0
-Peter Kilmer,Lorne,0.0
-Peter Kilmer,Mr. Drummond,0.0
-Peter Kilmer,Asal Reghabi,4.0
-Peter Kilmer,Dr. Mauer,0.0
-Peter Kilmer,Gretchen George,0.0
 Petey K.,Lorne,0.0
 Petey K.,Mr. Drummond,0.0
 Petey K.,Asal Reghabi,4.0
@@ -352,3 +349,67 @@ Mr. Drummond,Gretchen George,0.0
 Asal Reghabi,Dr. Mauer,0.0
 Asal Reghabi,Gretchen George,0.0
 Dr. Mauer,Gretchen George,0.0
+Doug Graner,Harmony Cobel,2.0
+Doug Graner,Seth Milchick,1.0
+Doug Graner,Mark Scout,-2.0
+Doug Graner,Mark S.,-3.0
+Doug Graner,Irving B.,1.0
+Doug Graner,Dylan G.,-1.0
+Doug Graner,Petey K.,-3.0
+Doug Graner,Helena Eagan,-1.0
+Doug Graner,Helly R.,-4.0
+Felicia,Irving B.,3.0
+Felicia,Burt G.,4.0
+Felicia,Mark S.,2.0
+Felicia,Dylan G.,1.0
+Felicia,Helly R.,1.0
+Judd,Mark Scout,1.0
+Judd,Dylan George,1.0
+Judd,Irving Bailiff,1.0
+Judd,Helena Eagan,1.0
+Alexa,Mark Scout,2.0
+Alexa,Devon Scout-Hale,4.0
+Alexa,Ricken Hale,-1.0
+Rebeck,Mark Scout,1.0
+Rebeck,Devon Scout-Hale,3.0
+Rebeck,Ricken Hale,4.0
+Rebeck,Patton,4.0
+Rebeck,Danise,4.0
+Patton,Mark Scout,-1.0
+Patton,Devon Scout-Hale,2.0
+Patton,Ricken Hale,4.0
+Patton,Danise,4.0
+Danise,Mark Scout,-1.0
+Danise,Devon Scout-Hale,3.0
+Danise,Ricken Hale,4.0
+Merrick George,Dylan George,5.0
+Merrick George,Gretchen George,5.0
+Merrick George,Dylan G.,5.0
+Ruth George,Dylan George,5.0
+Ruth George,Gretchen George,5.0
+Jim George,Dylan George,5.0
+Jim George,Gretchen George,5.0
+Mark W.,Mark S.,-3.0
+Mark W.,Gwendolyn Y.,1.0
+Mark W.,Dario R.,1.0
+Mark W.,Seth Milchick,-2.0
+Mark W.,Eustice Huang,-2.0
+Gwendolyn Y.,Mark S.,-2.0
+Gwendolyn Y.,Dario R.,1.0
+Gwendolyn Y.,Seth Milchick,-2.0
+Gwendolyn Y.,Eustice Huang,-1.0
+Dario R.,Mark S.,-2.0
+Dario R.,Seth Milchick,-2.0
+Dario R.,Eustice Huang,-2.0
+Cecily,Gemma Scout,-3.0
+Cecily,Dr. Mauer,2.0
+Cecily,Mark Scout,-2.0
+June Kilmer,Petey K.,5.0
+Nina Kilmer,Petey K.,5.0
+June Kilmer,Nina Kilmer,5.0
+June Kilmer,Mark S.,-1.0
+Sissy Cobel,Harmony Cobel,-5.0
+Sissy Cobel,Hampton,-4.0
+Hampton,Harmony Cobel,4.0
+Cecil Fields,Irving Bailiff,-2.0
+Cecil Fields,Burt Goodman,5.0

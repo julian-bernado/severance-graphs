@@ -1,0 +1,321 @@
+/* ========== Base Styles ========== */
+:root {
+    --lumon-white: #12111c;
+    --lumon-off-white: #db2020;
+    --lumon-teal: #0c5a6a;
+    --lumon-light-teal: #a7eaee;
+    --lumon-mint: #0c5a6a;
+    --lumon-dark: #caeff7;
+    --lumon-gray: #a7eaee;
+    --lumon-light-gray: #a7eaee;
+    --lumon-light-blue: #a7eaee;
+    --font-sans: "Helvetica Neue", Arial, sans-serif;
+    --corner-radius: 12px;
+  }
+  /*
+  * lumon-white: backgroun of the page,
+  * lumon-off-white: 
+  * lumon-teal: header and character list color
+  * lumon-light-teal: circle around the icon of character list
+  * lumon-mint: background of the quote at the top of the page
+  * lumon-dark: color of the text in the wuote
+  * lumon-gray: color of the text in the footer
+  */
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--lumon-white);
+    color: var(--lumon-dark);
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+  }
+  
+  /* ========== Typography ========== */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--lumon-light-blue);
+    margin: 1.5rem 0 1rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    border-bottom: 1px solid var(--lumon-light-teal);
+    padding-bottom: 0.5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: var(--lumon-light-blue);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  a:hover {
+    color: var(--lumon-light-teal);
+  }
+  
+  /* ========== Header Styles ========== */
+  header {
+    background-color: var(--lumon-teal);
+    color: var(--lumon-light-blue);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  
+  .header-buttons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header-buttons a {
+    color: var(--lumon-light-blue);
+    background-color: rgba(255, 255, 255, 0.1);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--corner-radius);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease;
+  }
+  
+  .header-buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* ========== Main Content ========== */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  /* ========== Graph Image ========== */
+  .large-graph {
+    width: 100%;
+    max-width: 1800px;
+    display: block;
+    border-radius: var(--corner-radius);
+    margin: 2rem auto;
+    border: 1px solid var(--lumon-light-gray);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  .chart-container {
+    width: 800px;       /* or whatever fixed width you prefer */
+    height: 600px;      /* fixed height */
+    border: 1px solid #ccc;  /* optional visible border */
+    
+    /* One of these overflow options: */
+    overflow: hidden;   /* anything that extends beyond is clipped */
+    /* overflow: auto;  if you prefer scrollbars instead of clipping */
+    
+    margin: 20px auto;  /* center horizontally, optional */
+    position: relative; /* helps ensure it's a positioned block */
+  }
+  
+  /* Force the mpld3 <svg> to fill the container. */
+  .chart-container .mpld3-figure > svg {
+    width: 100% !important; 
+    height: 100% !important;
+  }
+
+  
+  /* ========== Character Icons ========== */
+  .char-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid var(--lumon-light-teal);
+  }
+  
+  /* ========== Character List ========== */
+  .character-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .character-list li {
+    background-color: var(--lumon-mint);
+    padding: 0.75rem;
+    border-radius: var(--corner-radius);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    align-items: center;
+  }
+  
+  .character-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ========== Tables ========== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: var(--lumon-white);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: var(--corner-radius);
+  }
+
+  thead {
+    border-bottom: 2px solid var(--lumon-light-blue)
+  }
+  
+  th {
+    background-color: var(--lumon-teal);
+    color: var(--lumon-light-blue);
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--lumon-light-gray);
+  }
+  
+  tr:nth-child(even) {
+    background-color: var(--lumon-mint);
+  }
+  
+  /* Positive and negative affinities */
+  td:last-child {
+    font-weight: 500;
+  }
+  
+  td[data-affinity^="+"] {
+    color: var(--lumon-teal);
+  }
+  
+  td[data-affinity^="-"] {
+    color: #d62828; /* A muted red that fits with the palette */
+  }
+  
+  /* ========== Footer ========== */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+    background-color: var(--lumon-mint);
+    color: var(--lumon-gray);
+    font-size: 0.9rem;
+    flex: 1;
+    border-top: 1px solid var(--lumon-light-gray);
+  }
+  
+  /* ========== Lumon Branding Elements ========== */
+  .lumon-quote {
+    background-color: var(--lumon-mint);
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    border-left: 4px solid var(--lumon-teal);
+  }
+  
+  .lumon-quote::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    opacity: 0.1;
+  }
+  
+  .lumon-badge {
+    display: inline-block;
+    background-color: var(--lumon-teal);
+    color: var(--lumon-white);
+    padding: 0.25rem 0.5rem;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-left: 0.5rem;
+  }
+  
+  /* ========== Responsive Design ========== */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    .character-list {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+    .header-buttons {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    main {
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .character-list {
+      grid-template-columns: 1fr;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  

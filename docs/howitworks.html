@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How It Works | Severance Character Connections</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<header>
+  <div class="header-title"><a href="index.html">Severance Character Connections</a></div>
+  <div class="header-buttons">
+    <a href="howitworks.html">How It Works</a>
+    <a href="groups/index.html">Groups</a>
+  </div>
+</header>
+
+<main>
+  <h1>How It Works</h1>
+
+  <div class="lumon-quote">
+    “Be content in my words, and dally not in the scholastic pursuits of lesser men.” - Kier Eagan
+  </div>
+  
+  <div style="max-width: 800px; margin: 0 auto;">
+    <h2>Character Relationship Analysis</h2>
+    <p>For every pair of characters, I've determined affinity values ranging from -5 to 5 for their relationship. Using all such affinity values, we can visualize the relationships between different characters by plotting them in 2D space in a way that keeps people with high <i>absolute affinities</i> close together.</p>
+    <p>When I say <i> absolute affinities</i>, I mean the absolute value of the affinity. For example, Mark S. have very high affinity and high absolute affinity, Mark S. and Cobel very low affinity and high absolute affinity, while Mark S. and Dylan's outtie have zero affinity and thus zero absolute affinity. So, characters who have intense relationships are placed close together, whether or not that relationship is positive or negative.</p>
+    <p>This lens on the relationships between characters follows a "the opposite of love is indifference, not hate" type of ethos, and I think the results are pretty interesting to look at. Some more details follow.</p>
+    
+    <h3>Affinity Values</h3>
+    <p>Affinity values range from -5.0 (strong negative relationship) to +5.0 (strong positive relationship):</p>
+    <ul style="list-style-type: none; margin: 1rem 0;">
+      <li><strong style="color: var(--lumon-teal);">+5.0</strong>: Strong positive connection (love, deep friendship)</li>
+      <li><strong style="color: var(--lumon-teal);">+3.0</strong>: Moderate positive connection (friendship, alliance)</li>
+      <li><strong style="color: var(--lumon-teal);">+1.0</strong>: Slight positive connection (acquaintance, mild approval)</li>
+      <li><strong>0.0</strong>: Neutral or no significant connection</li>
+      <li><strong style="color: #d62828;">-1.0</strong>: Slight negative connection (dislike, mild disapproval)</li>
+      <li><strong style="color: #d62828;">-3.0</strong>: Moderate negative connection (antagonism, opposition)</li>
+      <li><strong style="color: #d62828;">-5.0</strong>: Strong negative connection (hatred, enmity)</li>
+    </ul>
+    
+    <h3>Visualization</h3>
+    <p>Relationships are visualized as network graphs where:</p>
+    <ul>
+      <li>Nodes represent characters</li>
+      <li>Edges represent connections between characters</li>
+      <li>Edge colors indicate positive (teal) or negative (red) relationships</li>
+      <li>Edge thickness represents the strength of the connection</li>
+      <li>Characters with intense relationships are close together.</li>
+    </ul>
+
+    <h3>Naming Scheme</h3>
+    <p>I name innies and outties based on the way they're typically referred to in the show: innies have their first name and last initial, while outties have their full name.</p>
+
+    <h3>Character Graphs</h3>
+    <p>Character graphs zoom into a specific character and only show the connections that that character has to others. You can access these from the character directory on the main page. It's interesting because you can see how few characters certain people interact with. For example, <a href="characters/Dylan George.html">Dylan's outtie</a> pretty much only knows Milchick and his family while <a href="characters/Mark Scout.html">Mark's outtie</a> knows a lot of people on the inside.</p>
+    
+    <h3>Group Graphs</h3>
+    <p>It's interesting to see what set of people a group of characters have interacted with. So, similar to the character graphs, you can look at group graphs for a few pre-determined groups I've made. These will show the shape of that group's relationship to one another as well as any characters who have a relationship with everyone in the group.</p>
+
+    <h3>Codebase</h3>
+    <p>I'm just statically generating all the images and HTML pages. Visuals are with matplotlib. Most of this was "vibe-coded."</p>
+
+    <h3>Next Steps/How you can help</h3>
+    <p>I sat down and just did my first pass at what all of the character affinity values are. But there's definitely some subjectivity and debates that can be had about specific values I've chosen. To get a sense of this, if any of the character or group graphs seem like they don't follow the description in the visualizations section above, then look at the individual affinities and maybe you'll disagree with one of them. Let me know about this from whatever means you accessed this site.</p>
+    <p>I'm also interested in what some standard graph-theoretic summaries are that I could produce for the data. I don't work in graph statistics so I'm not super fresh on what the obvious first pass exploratory analysis here would have looked at, so if you have any ideas, pleaset let me know!</p>
+  </div>
+</main>
+
+<footer>
+  <p>Lumon Industries — Character Relationship Analysis</p>
+  <p>Please remember that all connections are confidential and property of Lumon Industries.</p>
+</footer>
+
+</body>
+</html>
+
