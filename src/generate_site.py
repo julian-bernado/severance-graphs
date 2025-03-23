@@ -228,7 +228,7 @@ def generate_index_page(characters, global_img="global_graph.png", out_file="doc
     list_items = []
     for c in characters:
         # optionally use an icon if it exists: images/icons/<lowercase>_icon.png
-        icon_path = f"images/icons/{c.lower()}_icon.png"
+        icon_path = f"images/icons/{c}_icon.png"
         # If no icon, you might do a fallback. Here we just reference it anyway.
         item_html = f"""
   <li>
