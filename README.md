@@ -1,2 +1,2 @@
 # severance-graphs
-character relationship graphs
+Check out the website here.
